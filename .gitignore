@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Réglages personnels de signature (voir Config/Local.xcconfig.example)
+Config/Local.xcconfig
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+build/
+DerivedData/
+
+# Réglages locaux de Claude Code
+.claude/

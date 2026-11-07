@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03B70750C66C14CC57FCCF1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77979DA97809B4B8036E67E4 /* ContentView.swift */; };
+		3E5CFD78B137EE715860012B /* HorseLane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCACC11784CD871DC449932 /* HorseLane.swift */; };
+		74E40FD11D535E31E8CDEA53 /* PastToDiagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE49E69A477F3F6184CF13F /* PastToDiagram.swift */; };
+		7659ACD63310460F96C97A08 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F2D7571924BC231BF6E186 /* Quiz.swift */; };
+		8222D6E42DAE7E9E89A0AE8B /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602E8A9439B1593F4F0E6B28 /* AppTheme.swift */; };
+		828ABDF0BC79656A49AC0B7E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A04AADD7A5E658356D24C5 /* SettingsView.swift */; };
+		8378B360754600D03BCD7FE0 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F184F6013CB26B4C8271D4 /* HistoryView.swift */; };
+		A1542C1F655F274EE4CF75FA /* TestResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F44BF958242BA56DB4AE8E /* TestResultView.swift */; };
+		BB6E09794728E72DBCD318D6 /* OclockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7006723B9C8E6EB34FD74 /* OclockApp.swift */; };
+		C93A1B775D09F43725539E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA515AE5E8849F8078BDDA5 /* Assets.xcassets */; };
+		D36D9E2A5550AFA5AA0B4EDE /* ClockTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5650C3D0431611BC8F1DC3A5 /* ClockTime.swift */; };
+		DE202B1CA96CD1C697479B2F /* TestHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F292206A23C5021817ABC84F /* TestHistory.swift */; };
+		E16D498AD1CEE53A084C9FB8 /* ClockFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F31CFE1A5C9E6F00A7E004F /* ClockFace.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F31CFE1A5C9E6F00A7E004F /* ClockFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockFace.swift; sourceTree = "<group>"; };
+		10F184F6013CB26B4C8271D4 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		2AA515AE5E8849F8078BDDA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5650C3D0431611BC8F1DC3A5 /* ClockTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTime.swift; sourceTree = "<group>"; };
+		56A5723128EF99DF6A56185C /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
+		58A04AADD7A5E658356D24C5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5FCACC11784CD871DC449932 /* HorseLane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorseLane.swift; sourceTree = "<group>"; };
+		602E8A9439B1593F4F0E6B28 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		77979DA97809B4B8036E67E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		82E7006723B9C8E6EB34FD74 /* OclockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OclockApp.swift; sourceTree = "<group>"; };
+		ABF50F4FBA2EB9BC6AB317BB /* Oclock.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Oclock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F2D7571924BC231BF6E186 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		D3F44BF958242BA56DB4AE8E /* TestResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResultView.swift; sourceTree = "<group>"; };
+		F292206A23C5021817ABC84F /* TestHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHistory.swift; sourceTree = "<group>"; };
+		FAE49E69A477F3F6184CF13F /* PastToDiagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastToDiagram.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2CEBBF91CB0C7D6A77B99FA6 /* Oclock */ = {
+			isa = PBXGroup;
+			children = (
+				602E8A9439B1593F4F0E6B28 /* AppTheme.swift */,
+				2AA515AE5E8849F8078BDDA5 /* Assets.xcassets */,
+				0F31CFE1A5C9E6F00A7E004F /* ClockFace.swift */,
+				5650C3D0431611BC8F1DC3A5 /* ClockTime.swift */,
+				77979DA97809B4B8036E67E4 /* ContentView.swift */,
+				10F184F6013CB26B4C8271D4 /* HistoryView.swift */,
+				5FCACC11784CD871DC449932 /* HorseLane.swift */,
+				82E7006723B9C8E6EB34FD74 /* OclockApp.swift */,
+				FAE49E69A477F3F6184CF13F /* PastToDiagram.swift */,
+				B2F2D7571924BC231BF6E186 /* Quiz.swift */,
+				58A04AADD7A5E658356D24C5 /* SettingsView.swift */,
+				F292206A23C5021817ABC84F /* TestHistory.swift */,
+				D3F44BF958242BA56DB4AE8E /* TestResultView.swift */,
+			);
+			path = Oclock;
+			sourceTree = "<group>";
+		};
+		36571E25D9CB669BE9C02F5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABF50F4FBA2EB9BC6AB317BB /* Oclock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82234BAC53D93C817CB511E2 = {
+			isa = PBXGroup;
+			children = (
+				B901B0ADB758A59ED58BA345 /* Config */,
+				2CEBBF91CB0C7D6A77B99FA6 /* Oclock */,
+				36571E25D9CB669BE9C02F5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B901B0ADB758A59ED58BA345 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				56A5723128EF99DF6A56185C /* Base.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CCEB4F9F95901D5A3DB998E /* Oclock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C41736C19787C424B1CD7B75 /* Build configuration list for PBXNativeTarget "Oclock" */;
+			buildPhases = (
+				AA90376D203B2BB416295EEC /* Sources */,
+				B7B8D6FDF724868E326A64AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oclock;
+			packageProductDependencies = (
+			);
+			productName = Oclock;
+			productReference = ABF50F4FBA2EB9BC6AB317BB /* Oclock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90DAE3F3CF2E1B1DFD1E88DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3CCEB4F9F95901D5A3DB998E = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CD78EDA15752062B43D59C77 /* Build configuration list for PBXProject "Oclock" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 82234BAC53D93C817CB511E2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 36571E25D9CB669BE9C02F5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CCEB4F9F95901D5A3DB998E /* Oclock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7B8D6FDF724868E326A64AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93A1B775D09F43725539E14 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA90376D203B2BB416295EEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8222D6E42DAE7E9E89A0AE8B /* AppTheme.swift in Sources */,
+				E16D498AD1CEE53A084C9FB8 /* ClockFace.swift in Sources */,
+				D36D9E2A5550AFA5AA0B4EDE /* ClockTime.swift in Sources */,
+				03B70750C66C14CC57FCCF1E /* ContentView.swift in Sources */,
+				8378B360754600D03BCD7FE0 /* HistoryView.swift in Sources */,
+				3E5CFD78B137EE715860012B /* HorseLane.swift in Sources */,
+				BB6E09794728E72DBCD318D6 /* OclockApp.swift in Sources */,
+				74E40FD11D535E31E8CDEA53 /* PastToDiagram.swift in Sources */,
+				7659ACD63310460F96C97A08 /* Quiz.swift in Sources */,
+				828ABDF0BC79656A49AC0B7E /* SettingsView.swift in Sources */,
+				DE202B1CA96CD1C697479B2F /* TestHistory.swift in Sources */,
+				A1542C1F655F274EE4CF75FA /* TestResultView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2C4931E1A71806F84DB7784B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56A5723128EF99DF6A56185C /* Base.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "O'Clock";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		513C3D21565CED3B3296E995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56A5723128EF99DF6A56185C /* Base.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "O'Clock";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C88B3675ADC5DB6889841DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D78DE5FE8DD3042D6845C286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C41736C19787C424B1CD7B75 /* Build configuration list for PBXNativeTarget "Oclock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513C3D21565CED3B3296E995 /* Debug */,
+				2C4931E1A71806F84DB7784B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CD78EDA15752062B43D59C77 /* Build configuration list for PBXProject "Oclock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88B3675ADC5DB6889841DA8 /* Debug */,
+				D78DE5FE8DD3042D6845C286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90DAE3F3CF2E1B1DFD1E88DB /* Project object */;
+}

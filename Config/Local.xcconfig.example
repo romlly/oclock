@@ -1,0 +1,8 @@
+// Copie ce fichier en Local.xcconfig (ignoré par git), puis remplis-le.
+
+// Ton Team ID, visible sur https://developer.apple.com/account (rubrique Membership)
+// ou dans Xcode > Settings > Accounts.
+DEVELOPMENT_TEAM = ABCDE12345
+
+// Un préfixe qui t'appartient, en notation inversée (par exemple com.tonnom).
+BUNDLE_ID_PREFIX = com.tonnom

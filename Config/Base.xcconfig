@@ -1,0 +1,11 @@
+// Réglages de signature partagés.
+//
+// Pour installer l'app sur ton iPhone ou ton iPad, copie Local.xcconfig.example
+// en Local.xcconfig et renseigne ton équipe Apple et ton préfixe d'identifiant.
+// Local.xcconfig est ignoré par git : tes identifiants restent sur ta machine.
+
+DEVELOPMENT_TEAM =
+BUNDLE_ID_PREFIX = com.example
+PRODUCT_BUNDLE_IDENTIFIER = $(BUNDLE_ID_PREFIX).oclock
+
+#include? "Local.xcconfig"
